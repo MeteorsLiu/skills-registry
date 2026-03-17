@@ -5,7 +5,7 @@ Hosted registry for versioned AI skills.
 ## Search
 
 - Use [INDEX.md](./INDEX.md) as the primary discovery surface for skills.
-- Keep `INDEX.md` concise: names, short summaries, tags, and the latest published version.
+- Keep `INDEX.md` concise and uniform: one `### {owner}/{repo}` entry per repo with `Name`, `Summary`, `Tags`, `Latest published version`, and `Comparator`.
 - Use repo-level and version-level documents only after search narrows the candidate set.
 
 ## Layout
@@ -29,7 +29,7 @@ The first published entry uses the verified upstream source commit as the versio
 ## Comparator Files
 
 - `{owner}/{repo}/COMPARATOR.md` is the repo-level comparison guide for the model.
+- Every published repo must have `{owner}/{repo}/COMPARATOR.md`.
 - It should define only how to compare concrete version directories for that repo.
 - It should not define anything beyond pairwise ordering.
-- If `COMPARATOR.md` is absent, the local installer workflow may use its own default comparison logic.
 - Version directories are exact published artifacts.
