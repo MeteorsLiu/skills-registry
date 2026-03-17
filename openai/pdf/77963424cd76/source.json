@@ -1,0 +1,12 @@
+{
+  "owner": "openai",
+  "repo": "pdf",
+  "version": "77963424cd76",
+  "source": {
+    "type": "github",
+    "repository": "openai/skills",
+    "path": "skills/.curated/pdf",
+    "commit": "77963424cd76",
+    "commit_date": "2026-02-02T15:59:58Z"
+  }
+}
