@@ -20,7 +20,7 @@ After finding a candidate repo, read `{owner}/{repo}/COMPARATOR.md` only if vers
 
 - Name: `skill-installer`
 - Summary: Install Codex skills from curated GitHub paths or other GitHub repo paths.
-- Tags: `skills`, `installer`, `codex`, `github`, `curated`
+- Tags: `skills`, `installer`, `skill-installer`, `codex`, `github`, `curated`
 - Latest published version: `v0.1.0`
 - Comparator: [`codex/skill-installer/COMPARATOR.md`](./codex/skill-installer/COMPARATOR.md)
 
