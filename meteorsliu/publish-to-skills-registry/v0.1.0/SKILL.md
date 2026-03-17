@@ -21,7 +21,7 @@ Keep registry edits exact and minimal. Do not invent namespaces, versions, summa
 - If the user supplies an exact version, use it.
 - If the repo already has published versions, preserve that repo's existing verified versioning scheme.
 - For a new repo with no user-specified version, default the first published version to `v0.1.0`.
-- For a new repo that follows the default workflow, use semantic versioning for published versions.
+- For a new repo that follows the default workflow, use a single leading `v` plus a SemVer 2.0.0 version, and follow the precedence rules defined at `https://semver.org/`.
 - Treat `{owner}/{repo}/{version}` as an exact published artifact, not as a range or selector.
 - Do not invent an ad hoc versioning scheme. If you cannot verify a non-semver scheme, use the default `v0.1.0` starting point or ask the user.
 
@@ -31,11 +31,11 @@ Keep registry edits exact and minimal. Do not invent namespaces, versions, summa
 - Before creating or editing `COMPARATOR.md`, investigate how that repo's published versions are actually ordered.
 - Base that investigation on verified evidence such as existing version directory names, upstream release tags, embedded version strings, release notes, or other repo-specific signals.
 - If `{owner}/{repo}/COMPARATOR.md` is missing, create it before updating `INDEX.md` or proposing the publish PR.
-- For a new repo that follows the default workflow, write `COMPARATOR.md` using semantic version ordering.
+- For a new repo that follows the default workflow, write `COMPARATOR.md` using the SemVer 2.0.0 precedence rules from `https://semver.org/`, applied after stripping one leading `v` from the directory name.
 - Keep `COMPARATOR.md` limited to pairwise ordering for existing version directories.
 - Do not put selection policy, "latest" policy, or installation workflow into `COMPARATOR.md`.
 - If the ordering rule cannot be verified cleanly, do not guess. Ask the user for the intended rule or an authoritative source before creating or changing `COMPARATOR.md`.
-- If a new semver comparator is needed, start from [`references/comparator-template.md`](./references/comparator-template.md).
+- If a new semver comparator is needed, start from [`references/comparator-template.md`](./references/comparator-template.md) and keep it aligned with `https://semver.org/`.
 - If the repo does not use semver, replace the template's comparison rule only after the repo's actual version-ordering rule has been investigated and verified.
 
 4. Publish the version directory:
