@@ -1,6 +1,6 @@
 ---
 name: "openai/pdf comparator"
-description: "Use when the model needs to compare version directories inside openai/pdf. This document defines ordering only; exact-version choice, latest-version choice, and MVS-style maximum selection belong to the local installer workflow."
+description: "Use when the model needs to compare version directories inside openai/pdf. This document defines ordering only; exact-version choice, latest-version choice, and maximum-version selection across multiple requests belong to the local installer workflow."
 ---
 
 # openai/pdf Comparator
@@ -29,7 +29,7 @@ If the two commit dates are equal, compare the version directory names lexically
 ## Boundaries
 
 - Do not interpret version directory names here as semantic versions.
-- Do not apply LLAR formula-style `fromVer <= target` matching here.
+- Do not apply implicit `<= target` fallback here.
 - Do not choose `max` here just because multiple candidates exist; that decision belongs to the local installer workflow.
 - Treat version directories as exact artifacts already published in the registry.
 

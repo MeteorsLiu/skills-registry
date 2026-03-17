@@ -24,6 +24,6 @@ The first published entry uses the verified upstream source commit as the versio
 
 - `{owner}/{repo}/COMPARATOR.md` is the repo-level comparison guide for the model.
 - It defines how to compare version directory names for that repo.
-- If `COMPARATOR.md` is absent, the local installer workflow should follow LLAR's fallback behavior and use GNU version comparison on directory names.
-- Exact-version choice, latest-version choice, and MVS-style max selection belong to the local install workflow, not to the repo-level comparison guide.
-- Version directories are exact published artifacts. Unlike LLAR formula `fromVer` matching, the registry does not implicitly choose the highest directory less than or equal to a requested version unless the local install workflow explicitly adds that policy.
+- If `COMPARATOR.md` is absent, the local installer workflow should use GNU version comparison on directory names.
+- Exact-version choice, latest-version choice, and maximum-version selection across multiple requests belong to the local install workflow, not to the repo-level comparison guide.
+- Version directories are exact published artifacts. The registry does not implicitly choose the highest directory less than or equal to a requested version unless the local install workflow explicitly adds that policy.
