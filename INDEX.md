@@ -16,6 +16,14 @@ After finding a candidate repo, read `{owner}/{repo}/COMPARATOR.md` only if vers
 - Latest published version: `77963424cd76`
 - Comparator: [`openai/pdf/COMPARATOR.md`](./openai/pdf/COMPARATOR.md)
 
+### `codex/skill-installer`
+
+- Name: `skill-installer`
+- Summary: Install Codex skills from curated GitHub paths or other GitHub repo paths.
+- Tags: `skills`, `installer`, `codex`, `github`, `curated`
+- Latest published version: `v0.1.0`
+- Comparator: [`codex/skill-installer/COMPARATOR.md`](./codex/skill-installer/COMPARATOR.md)
+
 ### `meteorsliu/publish-to-skills-registry`
 
 - Name: `publish-to-skills-registry`
