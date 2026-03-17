@@ -2,6 +2,12 @@
 
 Hosted registry for versioned AI skills.
 
+## Search
+
+- Use [INDEX.md](./INDEX.md) as the primary discovery surface for skills.
+- Keep `INDEX.md` concise: names, short summaries, tags, and the latest published version.
+- Use repo-level and version-level documents only after search narrows the candidate set.
+
 ## Layout
 
 Skills are stored under:
