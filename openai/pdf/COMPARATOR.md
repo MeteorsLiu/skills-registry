@@ -1,6 +1,6 @@
 ---
 name: "openai/pdf comparator"
-description: "Use when the model needs to compare version directories inside openai/pdf. This document defines ordering only; exact-version choice, latest-version choice, and maximum-version selection across multiple requests belong to the local installer workflow."
+description: "Use when the model needs to compare version directories inside openai/pdf. This document teaches only pairwise ordering for two concrete versions."
 ---
 
 # openai/pdf Comparator
@@ -10,9 +10,7 @@ description: "Use when the model needs to compare version directories inside ope
 Define how to compare two published versions under `openai/pdf/`.
 
 This document only defines ordering.
-It does not decide whether to choose an exact version.
-It does not decide whether to choose the latest version.
-It does not decide how to merge multiple requested versions.
+It does not define anything beyond pairwise comparison.
 
 ## Comparison Rule
 
@@ -26,11 +24,12 @@ To compare two version directories:
 
 If the two commit dates are equal, compare the version directory names lexically as a stable tiebreaker.
 
-## Boundaries
+## Model Guidance
 
+- Compare only concrete published versions that already exist in the registry.
 - Do not interpret version directory names here as semantic versions.
-- Do not apply implicit `<= target` fallback here.
-- Do not choose `max` here just because multiple candidates exist; that decision belongs to the local installer workflow.
+- Do not infer anything beyond pairwise ordering here.
+- If required comparison metadata is missing, report that the versions cannot be compared reliably instead of inferring.
 - Treat version directories as exact artifacts already published in the registry.
 
 ## Rationale
