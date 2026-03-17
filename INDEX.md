@@ -15,3 +15,11 @@ After finding a candidate repo, read `{owner}/{repo}/COMPARATOR.md` only if vers
 - Tags: `pdf`, `document`, `rendering`, `reportlab`, `pdfplumber`, `pypdf`
 - Latest published version: `77963424cd76`
 - Comparator: [`openai/pdf/COMPARATOR.md`](./openai/pdf/COMPARATOR.md)
+
+### `meteorsliu/publish-to-skills-registry`
+
+- Name: `publish-to-skills-registry`
+- Summary: Publish a skill into skills-registry, including comparator, index, and pull-request updates.
+- Tags: `registry`, `skills`, `publishing`, `semver`, `pull-request`
+- Latest published version: `v0.1.0`
+- Comparator: [`meteorsliu/publish-to-skills-registry/COMPARATOR.md`](./meteorsliu/publish-to-skills-registry/COMPARATOR.md)
