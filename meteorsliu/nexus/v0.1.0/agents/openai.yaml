@@ -1,0 +1,4 @@
+interface:
+  display_name: "Nexus"
+  short_description: "Manage skill installs through one registry-first entry point"
+  default_prompt: "Use Nexus as the standard entry point for skill installation. Discover candidate skills only from github.com/MeteorsLiu/skills-registry/INDEX.md, resolve the target namespace and version, then install through a verified local installer. If no local installer can be verified, Nexus should select and bootstrap a compatible installer itself instead of telling the caller to find another tool."

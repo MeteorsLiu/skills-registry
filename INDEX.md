@@ -32,6 +32,14 @@ After finding a candidate repo, read `{owner}/{repo}/COMPARATOR.md` only if vers
 - Latest published version: `1.0.0`
 - Comparator: [`alaminrifat/file-to-markdown/COMPARATOR.md`](./alaminrifat/file-to-markdown/COMPARATOR.md)
 
+### `meteorsliu/nexus`
+
+- Name: `nexus`
+- Summary: Manage skill discovery and installation through one registry-first entry point.
+- Tags: `skills`, `manager`, `registry`, `installer`, `bootstrap`, `nexus`
+- Latest published version: `v0.1.0`
+- Comparator: [`meteorsliu/nexus/COMPARATOR.md`](./meteorsliu/nexus/COMPARATOR.md)
+
 ### `meteorsliu/publish-to-skills-registry`
 
 - Name: `publish-to-skills-registry`

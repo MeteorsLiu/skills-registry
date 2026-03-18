@@ -1,0 +1,12 @@
+{
+  "owner": "meteorsliu",
+  "repo": "nexus",
+  "version": "v0.1.0",
+  "source": {
+    "type": "github",
+    "repository": "MeteorsLiu/nexus",
+    "path": "skill",
+    "commit": "0f64cc9d0503792ed23d7eb733838491ea3ec605",
+    "commit_date": "2026-03-18T03:42:46Z"
+  }
+}
