@@ -1,3 +1,8 @@
+---
+name: file-to-markdown
+description: Convert local files or public URLs into AI-ready Markdown through the markdown.new API. Use when a task needs text extraction or normalization from PDFs, Office documents, spreadsheets, images, webpages, or structured data for summarization, RAG ingestion, analysis, or automation.
+---
+
 # File to Markdown — Skill
 
 ## Overview
