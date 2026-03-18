@@ -27,7 +27,7 @@ After finding a candidate repo, read `{owner}/{repo}/COMPARATOR.md` only if vers
 ### `codex/skill-creator`
 
 - Name: `skill-creator`
-- Summary: Create, update, and validate skills with reusable scripts, references, and UI metadata guidance.
+- Summary: Create, update, and validate Codex skills with reusable scripts, references, and UI metadata guidance.
 - Tags: `skills`, `creator`, `validation`, `codex`, `yaml`, `workflow`
 - Latest published version: `v0.1.0`
 - Comparator: [`codex/skill-creator/COMPARATOR.md`](./codex/skill-creator/COMPARATOR.md)
