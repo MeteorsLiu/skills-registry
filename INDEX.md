@@ -29,7 +29,7 @@ After finding a candidate repo, read `{owner}/{repo}/COMPARATOR.md` only if vers
 - Name: `file-to-markdown`
 - Summary: Convert local or remote files into AI-ready Markdown through the markdown.new API.
 - Tags: `markdown`, `documents`, `pdf`, `spreadsheet`, `images`, `ingestion`
-- Latest published version: `1.0.0`
+- Latest published version: `1.0.1`
 - Comparator: [`alaminrifat/file-to-markdown/COMPARATOR.md`](./alaminrifat/file-to-markdown/COMPARATOR.md)
 
 ### `meteorsliu/nexus`
